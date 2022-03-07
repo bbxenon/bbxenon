@@ -6,7 +6,6 @@
 #  _/ |  ||____  ___| | ___| || | | |||| ||| _| |_ | |\  |||____ 
 # |__/   |_____||____/ |____/ |_| |_||||_||||_____||_| \_||_____|
 #
-# jbezzerberry@gmail.com -- created: 2022-03-07T03:14:06 
 # http://github.com/bbxenon
 #
 # aliases
@@ -38,7 +37,6 @@ alias cd-='cd -'
 alias cde='cd ~/Code'
 alias dls='cd ~/Downloads'
 alias app='cd ~/Apps'
-alias win='cd /windows/jbezz'
 
 bup () 
 {
@@ -193,7 +191,6 @@ alias lowercase='rename "y/A-Z/a-z/" *'
 
 alias edex-ui='app; ./eDEX-UI-Linux-x86_64.AppImage'
 alias bwapp='app; ./Bitwarden-1.31.3-x86_64.AppImage'
-alias bwlogin='bw login jbezzerberry@gmail.com'
 
 alias pwgen='bw generate -cp --words 3 --includeNumber'
 alias jpwgen='python ~/Code/python/scripts/password.py'
